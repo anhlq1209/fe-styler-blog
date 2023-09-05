@@ -53,7 +53,7 @@ const ArticleCard = ({ className }) => {
         >
           <div className="flex items-center gap-x-2 md:gap-2.5">
             <img
-              className="w-9 h-9 md:w-10 h-10"
+              className="w-9 h-9 md:w-10 md:h-10"
               src={images.PostProfileImage}
               alt="postprofile"
             />
