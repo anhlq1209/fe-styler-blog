@@ -5,7 +5,17 @@ import { images } from "../../../constants";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto flex flex-col px-5 py-5 lg:flex-row">
+    <section
+      className="
+        container
+        mx-auto
+        flex
+        flex-col
+        px-5
+        py-5
+        lg:flex-row
+      "
+    >
       <div className="mt-10 lg:w-1/2">
         <h1
           className="
@@ -15,8 +25,10 @@ const Hero = () => {
             font-bold
             text-dark-soft
             md:text-5xl
+            lg:text-4xl
             lg:text-left
             lg:max-w-[540px]
+            xl:text-5xl
           "
         >
           Read the most interesting articles
@@ -28,6 +40,8 @@ const Hero = () => {
             text-center
             md:text-xl
             lg:text-left
+            lg:text-base
+            xl:text-xl
           "
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -39,6 +53,8 @@ const Hero = () => {
             flex-col
             gap-y-2.5
             mt-10
+            lg:mt-6
+            xl:mt-10
             relative
           "
         >
@@ -112,6 +128,8 @@ const Hero = () => {
               italic
               mt-2
               lg:mt-4
+              lg:text-sm
+              xl:text-base
             "
           >
             Popular Tags:
@@ -123,6 +141,8 @@ const Hero = () => {
               gap-x-2.4
               gap-y-2.5
               mt-3
+              lg:text-sm
+              xl:text-base
             "
           >
             <li
